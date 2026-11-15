@@ -37,30 +37,31 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that continuous
 ```bash
 git clone <your-repository-url>
 cd wifi-monitor
-
-### 3. Backend Setup
+3. Backend Setup
 Open a terminal and navigate to the backend folder:
 
+Bash
 cd backend
 npm install express mongoose cors dotenv
-
 Create a .env file in the backend directory:
 
+Code snippet
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/wifi-monitor
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 TELEGRAM_CHAT_ID=your_chat_id_here
+Start the backend server:
 
+Bash
 # Make sure your local MongoDB server is running first!
 npm start
-
 4. Frontend Setup
 Open a second terminal window and navigate to the frontend folder:
 
+Bash
 cd frontend
 npm install
 npm run dev
-
 The React dashboard will be available at http://localhost:5173.
 
 💻 Usage Instructions
