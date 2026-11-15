@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css'; // You can add custom CSS or configure Tailwind here
+import './App.css';
 
 function App() {
   const [devices, setDevices] = useState([]);
